@@ -1,0 +1,1189 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Textures/Test.png" type="Texture" id=1]
+[ext_resource path="res://Music/detected.ogg" type="AudioStream" id=2]
+[ext_resource path="res://Stages/Detected.gd" type="Script" id=3]
+[ext_resource path="res://Items/Pepsi.tscn" type="PackedScene" id=4]
+
+[sub_resource type="SpatialMaterial" id=1]
+params_cull_mode = 2
+albedo_texture = ExtResource( 1 )
+
+[sub_resource type="Environment" id=2]
+background_mode = 1
+ambient_light_color = Color( 1, 1, 1, 1 )
+ambient_light_energy = 0.0
+
+[node name="Detected" type="Spatial"]
+script = ExtResource( 3 )
+
+[node name="Pepsicans" type="Spatial" parent="."]
+
+[node name="Pepsi" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 1, -8 )
+
+[node name="Pepsi2" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 1.75, 1, -22 )
+
+[node name="Pepsi3" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -2.25, 1, -58 )
+
+[node name="Pepsi5" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -1.25, 1, -76 )
+
+[node name="Pepsi6" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 1, -95 )
+
+[node name="Pepsi44" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 1.75, 1, -113 )
+
+[node name="Pepsi45" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 1, -123 )
+
+[node name="Pepsi4" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 1, -40 )
+
+[node name="Pepsi7" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -1, 0.75, -583.5 )
+
+[node name="Pepsi23" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.75, -526.25 )
+
+[node name="Pepsi27" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.75, -550 )
+
+[node name="Pepsi24" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.75, -503.5 )
+
+[node name="Pepsi25" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.75, -453.75 )
+
+[node name="Pepsi28" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.75, -142.5 )
+
+[node name="Pepsi29" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -4, 0.75, -165.25 )
+
+[node name="Pepsi30" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -0.25, 0.75, -181.25 )
+
+[node name="Pepsi31" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 4, 0.75, -198.5 )
+
+[node name="Pepsi32" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -0.25, 0.75, -218 )
+
+[node name="Pepsi33" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -2, 0.75, -237.75 )
+
+[node name="Pepsi34" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.75, -258.75 )
+
+[node name="Pepsi36" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.75, -293.75 )
+
+[node name="Pepsi40" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -3, 0.75, -311.75 )
+
+[node name="Pepsi41" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -3, 0.75, -384.25 )
+
+[node name="Pepsi42" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.75, -400.5 )
+
+[node name="Pepsi37" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.75, -330 )
+
+[node name="Pepsi38" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.75, -366.5 )
+
+[node name="Pepsi39" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 3, 0.75, -348 )
+
+[node name="Pepsi35" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 1.25, 0.75, -267.75 )
+
+[node name="Pepsi43" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0.25, 0.75, -278 )
+
+[node name="Pepsi26" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 0.75, -479 )
+
+[node name="Pepsi8" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -1, 0.75, -595 )
+
+[node name="Pepsi9" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -1, 0.75, -605.5 )
+
+[node name="Pepsi10" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -1, 0.75, -617 )
+
+[node name="Pepsi11" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -1, 0.75, -628.5 )
+
+[node name="Pepsi12" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -1, 0.75, -639.5 )
+
+[node name="Pepsi13" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -1, 0.75, -650.75 )
+
+[node name="Pepsi14" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -1, 0.75, -661.5 )
+
+[node name="Pepsi15" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 1, 0.75, -589.25 )
+
+[node name="Pepsi16" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 1, 0.75, -600 )
+
+[node name="Pepsi17" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 1, 0.75, -610.5 )
+
+[node name="Pepsi18" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 1, 0.75, -622 )
+
+[node name="Pepsi19" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 1, 0.75, -633.75 )
+
+[node name="Pepsi20" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 1, 0.75, -644.75 )
+
+[node name="Pepsi21" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 1, 0.75, -656 )
+
+[node name="Pepsi22" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 1, 0.75, -666.5 )
+
+[node name="Pepsi46" parent="Pepsicans" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, 0, 2, -671.75 )
+
+[node name="Glitch1" type="CSGCombiner" parent="."]
+use_collision = true
+collision_mask = 0
+
+[node name="CSGBox130" type="CSGBox" parent="Glitch1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 0, 0.0598145, -814.75 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="CSGBox133" type="CSGBox" parent="Glitch1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -10.25, 0.0598145, -827.75 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="CSGBox131" type="CSGBox" parent="Glitch1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 0, 0.0598145, -863.25 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="CSGBox132" type="CSGBox" parent="Glitch1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -8.75, 0.0598145, -879.75 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="Glitch2" type="CSGCombiner" parent="."]
+use_collision = true
+collision_mask = 0
+
+[node name="CSGBox131" type="CSGBox" parent="Glitch2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 0, 0.06, -827.25 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="CSGBox133" type="CSGBox" parent="Glitch2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 9.75, 0.06, -834.25 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="CSGBox132" type="CSGBox" parent="Glitch2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 0, 0.06, -875.75 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="CSGBox134" type="CSGBox" parent="Glitch2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 11, 0.06, -894 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="Glitch3" type="CSGCombiner" parent="."]
+use_collision = true
+collision_mask = 0
+
+[node name="CSGBox132" type="CSGBox" parent="Glitch3"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 0, 0.06, -839 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="CSGBox134" type="CSGBox" parent="Glitch3"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 0, 0.06, -887.25 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="CSGBox133" type="CSGBox" parent="Glitch3"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -9.25, 0.06, -856.25 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="CSGBox135" type="CSGBox" parent="Glitch3"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 9, 0.06, -847 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="Glitch4" type="CSGCombiner" parent="."]
+use_collision = true
+collision_mask = 0
+
+[node name="CSGBox133" type="CSGBox" parent="Glitch4"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 0, 0.06, -851.25 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="CSGBox134" type="CSGBox" parent="Glitch4"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 11.25, 0.06, -874 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="MovingPlatform" type="CSGCombiner" parent="."]
+use_collision = true
+collision_mask = 0
+
+[node name="CSGBox71" type="CSGBox" parent="MovingPlatform"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -442.5 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="Pepsi" parent="MovingPlatform/CSGBox71" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, 0, 0, 1.25, 0, 0, 0, 1.25, -0.25, 1.19017, 0 )
+
+[node name="CSGBox73" type="CSGBox" parent="MovingPlatform"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -539 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="Pepsi4" parent="MovingPlatform/CSGBox73" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, -7.10543e-15, 0, 1.25, 0, 0, 0, 1.25, -0.25, 1.19017, 0 )
+
+[node name="MovingPlatform2" type="CSGCombiner" parent="."]
+use_collision = true
+collision_mask = 0
+
+[node name="CSGBox70" type="CSGBox" parent="MovingPlatform2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -466.5 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="Pepsi2" parent="MovingPlatform2/CSGBox70" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, -7.10543e-15, 0, 1.25, 0, 0, 0, 1.25, -0.25, 1.19017, 0 )
+
+[node name="CSGBox72" type="CSGBox" parent="MovingPlatform2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -515 )
+width = 4.0
+height = 0.5
+depth = 4.0
+material = SubResource( 1 )
+
+[node name="Pepsi3" parent="MovingPlatform2/CSGBox72" instance=ExtResource( 4 )]
+transform = Transform( 1.25, 0, -7.10543e-15, 0, 1.25, 0, 0, 0, 1.25, -0.25, 1.19017, 0.25 )
+
+[node name="Part1" type="CSGCombiner" parent="."]
+use_collision = true
+collision_mask = 0
+
+[node name="CSGBox3" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -2.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, 3.25 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox13" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -8.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox14" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -14.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox15" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -20.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox16" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -26.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox17" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -32.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox18" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -38.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox19" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -44.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox20" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -50.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox21" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -56.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox22" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -62.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox2" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -68.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox23" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -74.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox24" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -80.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox25" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -86.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox26" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -92.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox27" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -98.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox28" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -104.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox29" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -110.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox30" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -116.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox31" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -122.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox62" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -412.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox63" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -418.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox64" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -424.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox65" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -430.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox66" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -454 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox32" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -128.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox33" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -142.5 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox34" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -148.5 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox35" type="CSGBox" parent="Part1"]
+transform = Transform( 0.65, 0, 0, 0, 1, 0, 0, 0, 1, -4, -0.190168, -162.5 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox36" type="CSGBox" parent="Part1"]
+transform = Transform( 0.65, 0, 0, 0, 1, 0, 0, 0, 1, -4, -0.190168, -168.5 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox37" type="CSGBox" parent="Part1"]
+transform = Transform( 0.313926, 0, -0.258819, 0, 1, 0, 0.0841162, 0, 0.965926, -0.776459, -0.190168, -178.602 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox38" type="CSGBox" parent="Part1"]
+transform = Transform( 0.313926, 0, -0.258819, 0, 1, 0, 0.0841162, 0, 0.965926, 0.776451, -0.190168, -184.398 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox39" type="CSGBox" parent="Part1"]
+transform = Transform( 0.6175, 0, -2.26498e-07, 0, 1, 0, 1.49012e-08, 0, 1, 4.24999, -0.190168, -195.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox40" type="CSGBox" parent="Part1"]
+transform = Transform( 0.6175, 0, -2.26498e-07, 0, 1, 0, 1.49012e-08, 0, 1, 4.25, -0.190168, -201.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox41" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -9.29832e-06, -0.190168, -214.5 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox42" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -1, -0.190168, -220.5 )
+width = 4.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox47" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, -0.190168, -258.5 )
+width = 6.0
+height = 0.5
+depth = 9.0
+material = SubResource( 1 )
+
+[node name="CSGBox53" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 0, -0.19, -293.92 )
+width = 6.0
+height = 0.5
+depth = 9.0
+material = SubResource( 1 )
+
+[node name="CSGBox52" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, -0.190168, -275.75 )
+width = 6.0
+height = 0.5
+depth = 9.0
+material = SubResource( 1 )
+
+[node name="CSGBox111" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, -0.190168, -267.5 )
+width = 6.0
+height = 0.5
+depth = 9.0
+material = SubResource( 1 )
+
+[node name="CSGBox56" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -3, -0.19, -312.04 )
+width = 6.0
+height = 0.5
+depth = 9.0
+material = SubResource( 1 )
+
+[node name="CSGBox55" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 0, -0.19, -330.16 )
+width = 6.0
+height = 0.5
+depth = 9.0
+material = SubResource( 1 )
+
+[node name="CSGBox57" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 3, -0.19, -348.29 )
+width = 6.0
+height = 0.5
+depth = 9.0
+material = SubResource( 1 )
+
+[node name="CSGBox58" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 0, -0.19, -366.48 )
+width = 6.0
+height = 0.5
+depth = 9.0
+material = SubResource( 1 )
+
+[node name="CSGBox59" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -3, -0.19, -384.61 )
+width = 6.0
+height = 0.5
+depth = 9.0
+material = SubResource( 1 )
+
+[node name="CSGBox61" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, -0.190168, -406.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox84" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, -0.190168, -406.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox85" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, -0.190168, -400.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox86" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, -0.190168, -400.75 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox67" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.19, -485.25 )
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox68" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -491.25 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox69" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -497.25 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox71" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, -0.190168, -479.25 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox46" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, -0.190168, -231.5 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox48" type="CSGBox" parent="Part1"]
+transform = Transform( 0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866025, -1.25, -0.190168, -236.5 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox50" type="CSGBox" parent="Part1"]
+transform = Transform( 0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, 0.965926, 0.5, -0.190168, -243.5 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox49" type="CSGBox" parent="Part1"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, -0.5, -0.190168, -239.75 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox54" type="CSGBox" parent="Part1"]
+transform = Transform( 0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866025, -0.5, -0.190168, -583 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox60" type="CSGBox" parent="Part1"]
+transform = Transform( 0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, 0.965926, 1.25, -0.190168, -590 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox87" type="CSGBox" parent="Part1"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0.25, -0.190168, -586.25 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox88" type="CSGBox" parent="Part1"]
+transform = Transform( 0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866025, -0.5, -0.190168, -594 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox89" type="CSGBox" parent="Part1"]
+transform = Transform( 0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, 0.965926, 1.25, -0.190168, -601 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox90" type="CSGBox" parent="Part1"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0.25, -0.190168, -597.25 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox91" type="CSGBox" parent="Part1"]
+transform = Transform( 0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866025, -0.5, -0.190168, -605.5 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox92" type="CSGBox" parent="Part1"]
+transform = Transform( 0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, 0.965926, 1.25, -0.190168, -612.5 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox93" type="CSGBox" parent="Part1"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0.25, -0.190168, -608.75 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox94" type="CSGBox" parent="Part1"]
+transform = Transform( 0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866025, -0.5, -0.190168, -616.5 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox95" type="CSGBox" parent="Part1"]
+transform = Transform( 0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, 0.965926, 1.25, -0.190168, -623.5 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox96" type="CSGBox" parent="Part1"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0.25, -0.190168, -619.75 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox97" type="CSGBox" parent="Part1"]
+transform = Transform( 0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866025, -0.5, -0.190168, -628 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox98" type="CSGBox" parent="Part1"]
+transform = Transform( 0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, 0.965926, 1.25, -0.190168, -635 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox99" type="CSGBox" parent="Part1"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0.25, -0.190168, -631.25 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox100" type="CSGBox" parent="Part1"]
+transform = Transform( 0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866025, -0.5, -0.190168, -639 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox101" type="CSGBox" parent="Part1"]
+transform = Transform( 0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, 0.965926, 1.25, -0.190168, -646 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox102" type="CSGBox" parent="Part1"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0.25, -0.190168, -642.25 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox103" type="CSGBox" parent="Part1"]
+transform = Transform( 0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866025, -0.5, -0.190168, -650.5 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox104" type="CSGBox" parent="Part1"]
+transform = Transform( 0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, 0.965926, 1.25, -0.190168, -657.5 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox105" type="CSGBox" parent="Part1"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0.25, -0.190168, -653.75 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox106" type="CSGBox" parent="Part1"]
+transform = Transform( 0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, 0.866025, -0.5, -0.190168, -661.5 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox107" type="CSGBox" parent="Part1"]
+transform = Transform( 0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, 0.965926, 1.25, -0.190168, -668.5 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox108" type="CSGBox" parent="Part1"]
+transform = Transform( 0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0.25, -0.190168, -664.75 )
+width = 2.5
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox43" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -9.29832e-06, 2.55983, -218.5 )
+material = SubResource( 1 )
+
+[node name="CSGBox45" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 1.99999, 2.55983, -218.5 )
+material = SubResource( 1 )
+
+[node name="CSGBox44" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.00001, 2.55983, -218.5 )
+material = SubResource( 1 )
+
+[node name="CSGBox110" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 1.99999, 1.05983, -264 )
+material = SubResource( 1 )
+
+[node name="CSGBox112" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 1.99999, 3.05983, -264 )
+material = SubResource( 1 )
+
+[node name="CSGBox113" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -1.25001, 1.05983, -267.75 )
+material = SubResource( 1 )
+
+[node name="CSGBox114" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -1.25001, 3.05983, -267.75 )
+material = SubResource( 1 )
+
+[node name="CSGBox115" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 1.99999, 1.05983, -272.5 )
+material = SubResource( 1 )
+
+[node name="CSGBox116" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 1.99999, 3.05983, -272.5 )
+material = SubResource( 1 )
+
+[node name="CSGBox117" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.00001, 1.05983, -275.75 )
+material = SubResource( 1 )
+
+[node name="CSGBox118" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.00001, 3.05983, -275.75 )
+material = SubResource( 1 )
+
+[node name="CSGBox78" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -9.29832e-06, 2.55983, -486 )
+material = SubResource( 1 )
+
+[node name="CSGBox79" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 1.99999, 2.55983, -486 )
+material = SubResource( 1 )
+
+[node name="CSGBox80" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.00001, 2.55983, -486 )
+material = SubResource( 1 )
+
+[node name="CSGBox81" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -9.29832e-06, 2.55983, -556.25 )
+material = SubResource( 1 )
+
+[node name="CSGBox82" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, 1.99999, 2.55983, -556.25 )
+material = SubResource( 1 )
+
+[node name="CSGBox83" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.00001, 2.55983, -556.25 )
+material = SubResource( 1 )
+
+[node name="CSGBox72" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -503.25 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox70" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.19, -556.25 )
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox74" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -562.25 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox75" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -568.25 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox76" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, -0.190168, -550.25 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox77" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -574.25 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox73" type="CSGBox" parent="Part1"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.190168, -526.5 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="Part2" type="CSGCombiner" parent="."]
+use_collision = true
+collision_mask = 0
+
+[node name="CSGBox117" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0598145, -774 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox118" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0598145, -780 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox119" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0597534, -786 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox120" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0598145, -792 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox129" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, 0.0598145, -804 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox131" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, 0.0597534, -798 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox132" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, 0.0597534, -798 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox121" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0598145, -898 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox122" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0598145, -904 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox123" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0597534, -910 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox124" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0598145, -916 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox130" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, 0.0598145, -928 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox133" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, 0.0597534, -922 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox134" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, 0.0597534, -922 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox136" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, 0.0597534, -934 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="CSGBox137" type="CSGBox" parent="Part2"]
+transform = Transform( 1, 0, -2.41314e-08, 0, 1, 0, 2.41314e-08, 0, 1, -2.14577e-06, 0.0597534, -934 )
+width = 6.0
+height = 0.5
+depth = 6.0
+material = SubResource( 1 )
+
+[node name="SpotLight" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 15.25, 0 )
+light_color = Color( 1, 0.32549, 0.32549, 1 )
+spot_range = 23.0
+
+[node name="SpotLight2" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 12.25, 15.25, -28 )
+light_color = Color( 1, 0.32549, 0.32549, 1 )
+spot_range = 23.0
+
+[node name="SpotLight3" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -11.25, 15.25, -54.5 )
+light_color = Color( 1, 0.32549, 0.32549, 1 )
+spot_range = 23.0
+
+[node name="SpotLight4" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 11.25, 15.25, -91.5 )
+light_color = Color( 1, 0.32549, 0.32549, 1 )
+spot_range = 23.0
+
+[node name="MoveLight" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -1.25, 15.25, -135.5 )
+light_color = Color( 1, 0.32549, 0.32549, 1 )
+spot_range = 20.25
+spot_angle = 43.4112
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+autoplay = true
+
+[node name="Start" type="Position3D" parent="."]
+
+[node name="End" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -960.75 )
+
+[node name="Lights" type="Position3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 57.5, 0, -43.75 )
+
+[node name="OmniLight" type="OmniLight" parent="Lights"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.75, -5 )
+light_color = Color( 0, 1, 1, 1 )
+light_energy = 0.5
+omni_range = 20.0
+
+[node name="OmniLight2" type="OmniLight" parent="Lights"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.75, 5 )
+light_color = Color( 0.992157, 0, 1, 1 )
+light_energy = 0.5
+omni_range = 20.0
