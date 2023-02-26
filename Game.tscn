@@ -17,6 +17,7 @@ visible = false
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 0.939693, 0.34202, 0, -0.34202, 0.939693, 0, 2.25, 18 )
+fov = 100.0
 
 [node name="Map" parent="." instance=ExtResource( 20 )]
 

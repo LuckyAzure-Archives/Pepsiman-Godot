@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=2]
+[gd_scene load_steps=36 format=2]
 
 [ext_resource path="res://Models/pepsiman/Pepsiman.png" type="Texture" id=1]
 [ext_resource path="res://Models/pepsiman/mtl31_002.material" type="Material" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://Sound/slide.wav" type="AudioStream" id=6]
 [ext_resource path="res://Sound/0100_00062.wav" type="AudioStream" id=7]
 [ext_resource path="res://Sound/0100_00016.wav" type="AudioStream" id=8]
+[ext_resource path="res://thinice/Thin Ice In 3D.tscn" type="PackedScene" id=9]
 
 [sub_resource type="ArrayMesh" id=1]
 surfaces/0 = {
@@ -896,8 +897,12 @@ script = ExtResource( 3 )
 
 [node name="Model" type="Position3D" parent="."]
 
+[node name="Thin Ice In 3D" parent="Model" instance=ExtResource( 9 )]
+transform = Transform( 1.99989, 0, -0.0211182, 0, 2, 0, 0.0211182, 0, 1.99989, -0.0664063, -0.207947, -0.124488 )
+
 [node name="Pepsiman" type="Spatial" parent="Model"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0504417, 0 )
+visible = false
 
 [node name="torso" type="MeshInstance" parent="Model/Pepsiman"]
 transform = Transform( 1.00018, 0, 0, 0, 0.999987, -0.005077, 0, 0.00505043, 1.00525, 0, 1.05, 0 )
