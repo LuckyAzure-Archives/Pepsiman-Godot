@@ -5,7 +5,7 @@ var pepsis = 0
 func _process(delta):
 	$Right.position.x = get_viewport().size.x
 	$GlitchyEffect.margin_right = get_viewport().size.x
-	#distancemeter(delta)
+	distancemeter(delta)
 	pepsicancounter()
 
 func distancemeter(delta):
